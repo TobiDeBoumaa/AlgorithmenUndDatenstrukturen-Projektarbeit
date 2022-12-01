@@ -2,105 +2,116 @@
 //
 
 #include "lexikalischeAnalyse.hpp"
+#include <cassert>
 
 using namespace std;
 
 #define Getc(s) getc(s)
-#define Ungetc(c)            \
-	{                        \
-		ungetc(c, IP_Input); \
-		ugetflag = 1;        \
-	}
+#define Ungetc(c)                                                              \
+  {                                                                            \
+    ungetc(c, IP_Input);                                                       \
+    ugetflag = 1;                                                              \
+  }
 
 /*
  *	Lexical analyzer states.
  */
-enum lexstate
-{
-	L_START,
-	L_INT,
-	L_IDENT,
-	L_STRING,
-	L_STRING2,
-	L_COMMENT,
-	L_TEXT_COMMENT,
-	L_LINE_COMMENT,
-	L_END_TEXT_COMMENT
+enum lexstate {
+  L_START,
+  L_INT,
+  L_IDENT,
+  L_STRING,
+  L_STRING2,
+  L_MACADDRESS,
+  L_DISPLAYOPTION,
+  L_COMMENT,
+  L_TEXT_COMMENT,
+  L_LINE_COMMENT,
+  L_END_TEXT_COMMENT
 };
 
 const int STRING1 = 3;
 const int IDENTIFIER = 4;
 const int INTEGER1 = 5;
+const int MACADDRESS = 6;
 const int TOKENSTART = 300;
 
 // Adds a character to the string value
-void CParser::PushString(char c)
-{
-	yylval.s += c;
-}
+void CParser::PushString(char c) { yylval.s += c; }
 //------------------------------------------------------------------------
-void CParser::Load_tokenentry(string str, int index)
-{
-	IP_Token_table[str] = index;
-	IP_revToken_table[index] = str;
+void CParser::Load_tokenentry(string str, int index) {
+  IP_Token_table[str] = index;
+  IP_revToken_table[index] = str;
 }
-void CParser::IP_init_token_table()
-{
-	Load_tokenentry("STRING1", 3);
-	Load_tokenentry("IDENTIFIER", 4);
-	Load_tokenentry("INTEGER1", 5);
+void CParser::IP_init_token_table() {
+  Load_tokenentry("STRING1", STRING1);
+  Load_tokenentry("IDENTIFIER", IDENTIFIER);
+  Load_tokenentry("INTEGER1", INTEGER1);
 
-	int ii = TOKENSTART;
-	Load_tokenentry("AND", ii++);
-	Load_tokenentry("OR", ii++);
-	Load_tokenentry("Begin", ii++);
-	Load_tokenentry("End", ii++);
+  int ii = TOKENSTART;
+  Load_tokenentry("AND", ii++);
+  Load_tokenentry("OR", ii++);
+  Load_tokenentry("Begin", ii++);
+  Load_tokenentry("MACADDRESS", ii++);
+  Load_tokenentry("DISPLAYOPTION", ii++);
+  Load_tokenentry("End", ii++);
 }
 //------------------------------------------------------------------------
 
-void CParser::pr_tokentable()
-{
+void CParser::pr_tokentable() {
 
-	typedef map<string, int>::const_iterator CI;
-	const char *buf;
+  typedef map<string, int>::const_iterator CI;
+  const char *buf;
 
-	printf("Symbol Table ---------------------------------------------\n");
+  printf("Symbol Table ---------------------------------------------\n");
 
-	for (CI p = IP_Token_table.begin(); p != IP_Token_table.end(); ++p)
-	{
-		buf = p->first.c_str();
-		printf(" key:%s", buf);
-		printf(" val:%d\n", p->second);
-		;
-	}
+  for (CI p = IP_Token_table.begin(); p != IP_Token_table.end(); ++p) {
+    buf = p->first.c_str();
+    printf(" key:%s", buf);
+    printf(" val:%d\n", p->second);
+    ;
+  }
 }
 //------------------------------------------------------------------------
 
-int CParser::yyparse()
-{
-	int tok;
-	if (prflag)
-		fprintf(IP_List, "%5d ", (int)IP_LineNumber);
-	/*
-	 *	Go parse things!
-	 */
-	while ((tok = yylex()) != 0)
-	{
-		printf("%d ", tok);
-		if (tok == STRING1)
-			printf("%s %s ", IP_revToken_table[tok].c_str(), yylval.s.c_str());
-		else if (tok == INTEGER1)
-			printf("%s %d ", IP_revToken_table[tok].c_str(), yylval.i);
-		else if (tok == IDENTIFIER)
-			printf("%s %s ", IP_revToken_table[tok].c_str(), yylval.s.c_str());
-		else if (tok >= TOKENSTART){
-			printf("%s ", IP_revToken_table[tok].c_str());
-		}else
-			printf("%c ", tok);
-		if (!prflag)
-			printf("\n");
-	}
-	return 0;
+arp_paket CParser::yyparse() {
+  int tok;
+  int dispOption = 0;
+  if (prflag)
+    fprintf(IP_List, "%5d ", (int)IP_LineNumber);
+  /*
+   *	Go parse things!
+   */
+  while ((tok = yylex()) != 0) {
+    printf("%d ", tok);
+    switch (tok) {
+    case STRING1:
+      printf("%s %s ", IP_revToken_table[tok].c_str(), yylval.s.c_str());
+      break;
+    case INTEGER1:
+      printf("%s %d ", IP_revToken_table[tok].c_str(), yylval.i);
+      break;
+    case IDENTIFIER:
+      printf("%s %s ", IP_revToken_table[tok].c_str(), yylval.s.c_str());
+      break;
+    case 303: // Mac Address
+      printf("Mac address: %s", yylval.s.c_str());
+      return arp_paket(yylval.s, dispOption);
+      break;
+    case 304: // Display Options
+      printf("Display options: %s %d", IP_revToken_table[tok].c_str(),
+             yylval.i);
+      dispOption = yylval.i;
+      break;
+    case 305: // End
+      printf("%s\n", IP_revToken_table[tok].c_str());
+    default:
+      printf("unsupported id %c", tok);
+      break;
+    }
+    if (!prflag)
+      printf("\n");
+  }
 }
 //------------------------------------------------------------------------
 
@@ -115,19 +126,19 @@ void CParser::InitParse(FILE *inp, FILE *err, FILE *lst)
 
 {
 
-	/*
-	 *	Set up the file state to something useful.
-	 */
-	IP_Input = inp;
-	IP_Error = err;
-	IP_List = lst;
+  /*
+   *	Set up the file state to something useful.
+   */
+  IP_Input = inp;
+  IP_Error = err;
+  IP_List = lst;
 
-	IP_LineNumber = 1;
-	ugetflag = 0;
-	/*
-	 *	Define both the enabled token and keyword strings.
-	 */
-	IP_init_token_table();
+  IP_LineNumber = 1;
+  ugetflag = 0;
+  /*
+   *	Define both the enabled token and keyword strings.
+   */
+  IP_init_token_table();
 }
 //------------------------------------------------------------------------
 
@@ -140,22 +151,18 @@ void CParser::InitParse(FILE *inp, FILE *err, FILE *lst)
 void CParser::yyerror(char *ers)
 
 {
-	fprintf(IP_Error, "line %d: %s\n", IP_LineNumber, ers);
+  fprintf(IP_Error, "line %d: %s\n", IP_LineNumber, ers);
 }
 //------------------------------------------------------------------------
 
-int CParser::IP_MatchToken(string &tok)
-{
-	int retval;
-	if (IP_Token_table.find(tok) != IP_Token_table.end())
-	{
-		retval = (IP_Token_table[tok]);
-	}
-	else
-	{
-		retval = (0);
-	}
-	return retval;
+int CParser::IP_MatchToken(string &tok) {
+  int retval;
+  if (IP_Token_table.find(tok) != IP_Token_table.end()) {
+    retval = (IP_Token_table[tok]);
+  } else {
+    retval = (0);
+  }
+  return retval;
 }
 
 //------------------------------------------------------------------------
@@ -164,190 +171,189 @@ int CParser::IP_MatchToken(string &tok)
  *	yylex:
  *
  */
-int CParser::yylex()
-{
-	// Locals
-	int c;
-	lexstate s;
-	/*
-	 *	Keep on sucking up characters until we find something which
-	 *	explicitly forces us out of this function.
-	 */
-	for (s = L_START, yytext = ""; 1;)
-	{
-		c = Getc(IP_Input);
-		yytext = yytext + (char)c;
-		if (!ugetflag)
-		{
-			if (c != EOF)
-				if (prflag)
-					fprintf(IP_List, "%c", c);
-		}
-		else
-			ugetflag = 0;
-		switch (s)
-		{
-			// Starting state, look for something resembling a token.
-		case L_START:
-			if (isdigit(c))
-			{
-				s = L_INT;
-			}
-			else if (isalpha(c) || c == '\\')
-			{
-				s = L_IDENT;
-			}
-			else if (isspace(c))
-			{
-				if (c == '\n')
-				{
-					IP_LineNumber += 1;
-					if (prflag)
-						fprintf(IP_List, "%5d ", (int)IP_LineNumber);
-				}
-				yytext = "";
-			}
-			else if (c == '/')
-			{
-				yytext = "";
-				s = L_COMMENT;
-			}
-			else if (c == '"')
-			{
-				s = L_STRING;
-				yylval.s = "";
-			}
-			else if (c == EOF)
-			{
-				return ('\0');
-			}
-			else
-			{
-				return (c);
-			}
-			break;
-
-		case L_COMMENT:
-			if (c == '/')
-				s = L_LINE_COMMENT;
-			else if (c == '*')
-				s = L_TEXT_COMMENT;
-			else
-			{
-				Ungetc(c);
-				return ('/'); /* its the division operator not a comment */
-			}
-			break;
-		case L_LINE_COMMENT:
-			if (c == '\n')
-			{
-				s = L_START;
-				Ungetc(c);
-			}
-			yytext = "";
-			break;
-		case L_TEXT_COMMENT:
-			if (c == '\n')
-			{
-				IP_LineNumber += 1;
-			}
-			else if (c == '*')
-				s = L_END_TEXT_COMMENT;
-			yytext = "";
-			break;
-		case L_END_TEXT_COMMENT:
-			if (c == '/')
-			{
-				s = L_START;
-			}
-			else
-			{
-				s = L_TEXT_COMMENT;
-			}
-			yytext = "";
-			break;
-
-			/*
-			 *	Suck up the integer digits.
-			 */
-		case L_INT:
-			if (isdigit(c))
-			{
-				break;
-			}
-			else
-			{
-				Ungetc(c);
-				yylval.s = yytext.substr(0, yytext.size() - 1);
-				yylval.i = atoi(yylval.s.c_str());
-				return (INTEGER1);
-			}
-			break;
-
-			/*
-			 *	Grab an identifier, see if the current context enables
-			 *	it with a specific token value.
-			 */
-
-		case L_IDENT:
-			if (isalpha(c) || isdigit(c) || c == '_')
-				break;
-			Ungetc(c);
-			yytext = yytext.substr(0, yytext.size() - 1);
-			yylval.s = yytext;
-			if (c = IP_MatchToken(yytext))
-			{
-				return (c);
-			}
-			else
-			{
-				return (IDENTIFIER);
-			}
-
-			/*
-			 *	Suck up string characters but once resolved they should
-			 *	be deposited in the string bucket because they can be
-			 *	arbitrarily long.
-			 */
-		case L_STRING2:
-			s = L_STRING;
-			if (c == '"')
-			{ // >\"< found
-				PushString((char)c);
-			}
-			else
-			{
-				if (c == '\\')
-				{ // >\\< found
-					PushString((char)c);
-				}
-				else
-				{
-					PushString((char)'\\'); // >\x< found
-					PushString((char)c);
-				}
-			}
-			break;
-		case L_STRING:
-			if (c == '\n')
-				IP_LineNumber += 1;
-			else if (c == '\r')
-				;
-			else if (c == '"' || c == EOF)
-			{
-				return (STRING1);
-			}
-			else if (c == '\\')
-			{
-				s = L_STRING2;
-				// PushString((char)c);
-			}
-			else
-				PushString((char)c);
-			break;
-		default:
-			printf("***Fatal Error*** Wrong case label in yylex\n");
-		}
-	}
+int CParser::yylex() {
+  // Locals
+  int c;
+  lexstate s;
+  /*	Keep on sucking up characters until we find something which
+   *	explicitly forces us out of this function.
+   */
+  for (s = L_START, yytext = ""; 1;) {
+    c = Getc(IP_Input);
+    yytext = yytext + (char)c;
+    if (!ugetflag) {
+      if (c != EOF)
+        if (prflag)
+          fprintf(IP_List, "%c", c);
+    } else
+      ugetflag = 0;
+    switch (s) {
+      // Starting state, look for something resembling a token.
+    case L_START: {
+      if (isdigit(c)) {
+        s = L_INT;
+      } else if (isalpha(c) || c == '\\') {
+        s = L_IDENT;
+      } else if (isspace(c)) {
+        if (c == '\n') {
+          IP_LineNumber += 1;
+          if (prflag)
+            fprintf(IP_List, "%5d ", (int)IP_LineNumber);
+        }
+        yytext = "";
+      } else if (c == '/') {
+        yytext = "";
+        s = L_COMMENT;
+      } else if (c == '"') {
+        s = L_STRING;
+        yylval.s = "";
+      } else if (c == EOF) {
+        return ('\0');
+      } else {
+        return (c);
+      }
+      break;
+    }
+    case L_COMMENT: {
+      if (c == '/')
+        s = L_LINE_COMMENT;
+      else if (c == '*')
+        s = L_TEXT_COMMENT;
+      else {
+        Ungetc(c);
+        return ('/'); /* its the division operator not a comment */
+      }
+      break;
+    }
+    case L_LINE_COMMENT: {
+      if (c == '\n') {
+        s = L_START;
+        Ungetc(c);
+      }
+      yytext = "";
+      break;
+    }
+    case L_TEXT_COMMENT: {
+      if (c == '\n') {
+        IP_LineNumber += 1;
+      } else if (c == '*')
+        s = L_END_TEXT_COMMENT;
+      yytext = "";
+      break;
+    }
+    case L_END_TEXT_COMMENT: {
+      if (c == '/') {
+        s = L_START;
+      } else {
+        s = L_TEXT_COMMENT;
+      }
+      yytext = "";
+      break;
+    }
+      /*    Suck up the integer digits.
+       */
+    case L_INT: {
+      if (isdigit(c)) {
+        break;
+      } else {
+        Ungetc(c);
+        yylval.s = yytext.substr(0, yytext.size() - 1);
+        yylval.i = atoi(yylval.s.c_str());
+        return (INTEGER1);
+      }
+      break;
+    }
+      /*	Grab an identifier, see if the current context enables
+       *	it with a specific token value.
+       */
+    case L_IDENT: {
+      if (isalpha(c) || isdigit(c) || c == '_') {
+        break;
+      }
+      Ungetc(c);
+      yytext = yytext.substr(0, yytext.size() - 1);
+      yylval.s = yytext;
+      if ((c = IP_MatchToken(yytext))) {
+        if (c == IP_Token_table["DISPLAYOPTION"]) {
+          s = L_DISPLAYOPTION;
+          break;
+        } else if (c == IP_Token_table["MACADDRESS"]) {
+          s = L_MACADDRESS;
+          break;
+        } else
+          return (c);
+      } else {
+        return (IDENTIFIER);
+      }
+    }
+    case L_DISPLAYOPTION: {
+      if (isdigit(c) || c == ' ') {
+        break;
+      } else {
+        Ungetc(c);
+        yylval.s = yytext.substr(yylval.s.length() + 1, yytext.size() - 1);
+        yylval.i = atoi(yylval.s.c_str());
+        if (yylval.i > 3)
+          assert(!"There are no displayoptions over 3");
+        return (IP_Token_table["DISPLAYOPTION"]);
+      }
+    }
+    case L_MACADDRESS: {
+      if (isalpha(c) || isdigit(c) || c == ':' || c == ' ') {
+        break;
+      } else {
+        yylval.s = yytext.substr(yylval.s.length() + 1, yytext.size() - 2);
+        return (IP_Token_table["MACADDRESS"]);
+      }
+      if (c == '\n') {
+        IP_LineNumber += 1;
+      } else if (c == '\r') {
+      } else if (c == '"' || c == EOF) {
+        assert("error");
+        return (STRING1);
+      } else if (c == '\\') {
+        s = L_STRING2;
+        // PushString((char)c);
+      } else {
+        PushString((char)c);
+      }
+      break;
+    }
+      /*	Suck up string characters but once resolved they should
+       *	be deposited in the string bucket because they can be
+       *	arbitrarily long.
+       */
+    case L_STRING2: {
+      s = L_STRING;
+      if (c == '"') { // >\"< found
+        PushString((char)c);
+      } else {
+        if (c == '\\') { // >\\< found
+          PushString((char)c);
+        } else {
+          PushString((char)'\\'); // >\x< found
+          PushString((char)c);
+        }
+      }
+      break;
+    }
+    case L_STRING: {
+      if (c == '\n') {
+        IP_LineNumber += 1;
+      } else if (c == '\r') {
+      } else if (c == '"' || c == EOF) {
+        return (STRING1);
+      } else if (c == '\\') {
+        s = L_STRING2;
+        // PushString((char)c);
+      } else {
+        PushString((char)c);
+      }
+      break;
+    default:
+      printf("***Fatal Error*** Wrong case label in yylex\n");
+    }
+    }
+  }
 }
 //------------------------------------------------------------------------
