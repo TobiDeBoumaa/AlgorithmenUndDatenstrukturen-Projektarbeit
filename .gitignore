@@ -1,2 +1,4 @@
 .vscode/
 build/
+pj_imgui_00_demo_glfw_opengl3/CMakeFiles/*
+pj_imgui_00_demo_glfw_opengl3/glfw/*

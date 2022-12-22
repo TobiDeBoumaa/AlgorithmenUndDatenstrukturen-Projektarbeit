@@ -37,6 +37,7 @@ target_include_directories(${ProjectName} PUBLIC ${GLFW_DIR}/include)
 
 # For ImGui (reference: example_glfw_opengl3/Makefile)
 set(IMGUI_DIR "${CMAKE_CURRENT_LIST_DIR}/../third_party/imgui")
+set(IMPLOT_DIR "${CMAKE_CURRENT_LIST_DIR}/../third_party/implot")
 target_sources(${ProjectName} PRIVATE 
   ${IMGUI_DIR}/imgui.cpp
   ${IMGUI_DIR}/imgui_demo.cpp
@@ -45,8 +46,14 @@ target_sources(${ProjectName} PRIVATE
   ${IMGUI_DIR}/imgui_widgets.cpp
   ${IMGUI_DIR}/backends/imgui_impl_glfw.cpp
   ${IMGUI_DIR}/backends/imgui_impl_opengl3.cpp
+  ${IMPLOT_DIR}/implot.cpp
+  ${IMPLOT_DIR}/implot_demo.cpp
+  ${IMPLOT_DIR}/implot_items.cpp
+  arp_paket.cpp
+  K6dijkstra.cpp
+
 )
-target_include_directories(${ProjectName} PUBLIC ${IMGUI_DIR} ${IMGUI_DIR}/backends)
+target_include_directories(${ProjectName} PUBLIC ${IMGUI_DIR} ${IMGUI_DIR}/backends ${IMPLOT_DIR})
 
 # Copy files
 # file(COPY ${CMAKE_SOURCE_DIR}/../resource DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
