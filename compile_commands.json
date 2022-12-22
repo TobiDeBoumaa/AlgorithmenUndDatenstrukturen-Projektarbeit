@@ -1,0 +1,601 @@
+[
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/main.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/main.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/main.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui_demo.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui_demo.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui_demo.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui_draw.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui_draw.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui_draw.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui_tables.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui_tables.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui_tables.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui_widgets.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui_widgets.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/imgui_widgets.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/backends/imgui_impl_glfw.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/backends/imgui_impl_glfw.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/backends/imgui_impl_glfw.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/backends/imgui_impl_opengl3.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/imgui/backends/imgui_impl_opengl3.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/home/tobias/code/IMGUI_test/imgui_test/third_party/implot/implot.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/third_party/implot/implot.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/implot/implot.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/home/tobias/code/IMGUI_test/imgui_test/third_party/implot/implot_demo.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/third_party/implot/implot_demo.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/implot/implot_demo.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/home/tobias/code/IMGUI_test/imgui_test/third_party/implot/implot_items.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/third_party/implot/implot_items.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/implot/implot_items.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/arp_paket.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/arp_paket.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/arp_paket.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang++   -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/imgui/backends -I/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/../third_party/implot -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -std=c++11 -lstdc++ -O2 -g -DNDEBUG   -o CMakeFiles/main.dir/K6dijkstra.cpp.o -c /home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/K6dijkstra.cpp",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/pj_imgui_00_demo_glfw_opengl3/K6dijkstra.cpp"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/context.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/context.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/context.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/init.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/init.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/init.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/input.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/input.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/input.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/monitor.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/monitor.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/monitor.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/vulkan.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/vulkan.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/vulkan.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/window.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/window.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/window.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/x11_init.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/x11_init.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/x11_init.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/x11_monitor.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/x11_monitor.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/x11_window.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/x11_window.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/x11_window.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/xkb_unicode.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/xkb_unicode.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/posix_time.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/posix_time.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/posix_time.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/posix_thread.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/posix_thread.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/glx_context.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/glx_context.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/glx_context.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/egl_context.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/egl_context.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/egl_context.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/osmesa_context.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/osmesa_context.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src -Iglfw/src  -Wall -O2 -g -DNDEBUG -fPIC   -Wall -std=gnu99 -o glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/linux_joystick.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/src/linux_joystick.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/boing.dir/boing.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/boing.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/boing.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/gears.dir/gears.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/gears.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/gears.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/heightmap.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/heightmap.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/sharing.dir/sharing.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/sharing.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/sharing.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/particles.dir/particles.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/particles.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/particles.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/tinycthread.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/tinycthread.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/simple.dir/simple.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/simple.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/simple.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/splitview.dir/splitview.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/splitview.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/splitview.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/offscreen.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/offscreen.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/wave.dir/wave.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/wave.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/examples/wave.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/triangle-vulkan.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/triangle-vulkan.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_vulkan.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_vulkan.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/tearing.dir/tearing.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/tearing.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/tearing.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/title.dir/title.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/title.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/title.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/title.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/opacity.dir/opacity.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/opacity.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/opacity.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/clipboard.dir/clipboard.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/clipboard.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/clipboard.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/msaa.dir/msaa.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/msaa.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/msaa.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/msaa.dir/__/deps/getopt.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/msaa.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/glfwinfo.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/glfwinfo.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_vulkan.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_vulkan.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/iconify.dir/iconify.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/iconify.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/iconify.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/reopen.dir/reopen.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/reopen.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/reopen.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/gamma.dir/gamma.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/gamma.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/gamma.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/monitors.dir/monitors.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/monitors.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/monitors.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/monitors.dir/__/deps/getopt.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/monitors.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/windows.dir/windows.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/windows.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/windows.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/windows.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/timeout.dir/timeout.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/timeout.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/timeout.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/timeout.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/inputlag.dir/inputlag.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/inputlag.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/inputlag.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/inputlag.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/threads.dir/threads.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/threads.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/threads.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/tinycthread.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/tinycthread.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/threads.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/cursor.dir/cursor.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/cursor.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/cursor.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/empty.dir/empty.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/empty.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/empty.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/tinycthread.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/tinycthread.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/empty.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/icon.dir/icon.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/icon.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/icon.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/events.dir/events.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/events.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/events.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/events.dir/__/deps/getopt.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/getopt.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/events.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/joysticks.dir/joysticks.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/joysticks.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/tests/joysticks.c"
+},
+
+{
+  "directory": "/home/tobias/code/IMGUI_test/imgui_test/build",
+  "command": "/usr/bin/clang  -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps -I/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/include  -Wall -O2 -g -DNDEBUG   -std=gnu99 -o glfw/tests/CMakeFiles/joysticks.dir/__/deps/glad_gl.c.o   -c /home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c",
+  "file": "/home/tobias/code/IMGUI_test/imgui_test/third_party/glfw/deps/glad_gl.c"
+}
+]
